@@ -7,7 +7,7 @@ function Calculator() {
       <div className="button AC">AC</div>
       <div className="button ">+/-</div>
       <div className="button">%</div>
-      <div className="button operator">/</div>
+      <div className="button operator">÷</div>
       <div className="button">7</div>
       <div className="button">8</div>
       <div className="button">9</div>
