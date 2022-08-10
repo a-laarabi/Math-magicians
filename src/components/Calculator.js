@@ -1,37 +1,59 @@
 import React from 'react';
+// import Button from './Button';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: 0,
+      next: null,
+      operation: null,
+    };
   }
 
-  render() {
-    return (
-      <div className="calculator">
-        <div className="button input">0</div>
-        <div className="button AC">AC</div>
-        <div className="button ">+/-</div>
-        <div className="button">%</div>
-        <div className="button operator">÷</div>
-        <div className="button">7</div>
-        <div className="button">8</div>
-        <div className="button">9</div>
-        <div className="button operator">x</div>
-        <div className="button">4</div>
-        <div className="button">5</div>
-        <div className="button">6</div>
-        <div className="button operator">-</div>
-        <div className="button">1</div>
-        <div className="button">2</div>
-        <div className="button">3</div>
-        <div className="button operator">+</div>
-        <div className="button bigZero end">0</div>
-        <div className="button end">.</div>
-        <div className="button operator end">=</div>
-      </div>
-    );
-  }
+    onChangeHandler = (e) => {
+      const result = calculate(this.state, e.target.innerText);
+      this.setState(result);
+    }
+
+    displayResult = (e) => {
+      this.setState({
+        total: e.target.innerText,
+      });
+    }
+
+    render() {
+      const { total, next, operation } = this.state;
+      return (
+        <div className="calculator">
+          <div className="input" onChange={this.displayResult}>
+            {total}
+            {operation}
+            {next}
+          </div>
+          <button type="button" className="button AC" onClick={this.onChangeHandler}>AC</button>
+          <button type="button" className="button " onClick={this.onChangeHandler}>+/-</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>%</button>
+          <button type="button" className="button operator" onClick={this.onChangeHandler}>÷</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>7</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>8</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>9</button>
+          <button type="button" className="button operator" onClick={this.onChangeHandler}>x</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>4</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>5</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>6</button>
+          <button type="button" className="button operator" onClick={this.onChangeHandler}>-</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>1</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>2</button>
+          <button type="button" className="button" onClick={this.onChangeHandler}>3</button>
+          <button type="button" className="button operator" onClick={this.onChangeHandler}>+</button>
+          <button type="button" className="button bigZero end" onClick={this.onChangeHandler}>0</button>
+          <button type="button" className="button end" onClick={this.onChangeHandler}>.</button>
+          <button type="button" className="button operator end" onClick={this.onChangeHandler}>=</button>
+        </div>
+      );
+    }
 }
 
 export default Calculator;
