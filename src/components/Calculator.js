@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
+import './calculator.css'
 
 const Calculator = () => {
   const [state, setState] = React.useState({
