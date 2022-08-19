@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test components with snapshot test Calculation component with snapshot 1`] = `
+<section
+  className="claculation"
+>
+  <div
+    className="calculator-title"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+  </div>
+  <div
+    className="calculator"
+  >
+    <div
+      className="calculator"
+    >
+      <div
+        className="input"
+        onChange={[Function]}
+      >
+        0
+      </div>
+      <button
+        className="button AC"
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        className="button "
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="button operator"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="button operator"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="button operator"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="button"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="button operator"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        className="button bigZero end"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="button end"
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="button operator end"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`test components with snapshot test Calculator component with snapshot 1`] = `
+<div
+  className="calculator"
+>
+  <div
+    className="input"
+    onChange={[Function]}
+  >
+    0
+  </div>
+  <button
+    className="button AC"
+    onClick={[Function]}
+    type="button"
+  >
+    AC
+  </button>
+  <button
+    className="button "
+    onClick={[Function]}
+    type="button"
+  >
+    +/-
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    %
+  </button>
+  <button
+    className="button operator"
+    onClick={[Function]}
+    type="button"
+  >
+    ÷
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    7
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    8
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    9
+  </button>
+  <button
+    className="button operator"
+    onClick={[Function]}
+    type="button"
+  >
+    x
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    4
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    5
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    6
+  </button>
+  <button
+    className="button operator"
+    onClick={[Function]}
+    type="button"
+  >
+    -
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    1
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    2
+  </button>
+  <button
+    className="button"
+    onClick={[Function]}
+    type="button"
+  >
+    3
+  </button>
+  <button
+    className="button operator"
+    onClick={[Function]}
+    type="button"
+  >
+    +
+  </button>
+  <button
+    className="button bigZero end"
+    onClick={[Function]}
+    type="button"
+  >
+    0
+  </button>
+  <button
+    className="button end"
+    onClick={[Function]}
+    type="button"
+  >
+    .
+  </button>
+  <button
+    className="button operator end"
+    onClick={[Function]}
+    type="button"
+  >
+    =
+  </button>
+</div>
+`;
+
+exports[`test components with snapshot test Home component with snapshot 1`] = `
+<section
+  className="home"
+>
+  <h2>
+    Welcome to our page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.
+  </p>
+</section>
+`;
+
+exports[`test components with snapshot test Quotes component with snapshot 1`] = `
+<section
+  className="quote"
+>
+  <p>
+    Mathematics is not about numbers, equation, computations or algorithms: it is about understanding.- Willium Paul Thurston.
+  </p>
+</section>
+`;
