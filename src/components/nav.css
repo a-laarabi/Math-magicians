@@ -1,0 +1,21 @@
+
+ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.header .logo {
+  font-size: 2rem;
+}
+
+.navBar {
+  display: flex;
+  gap: 10px;
+}
