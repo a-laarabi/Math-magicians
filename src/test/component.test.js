@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Calculation from '../components/Calculation';
-import Calculator from '../components/calculator';
+import Calculator from '../components/Calculator';
 import Home from '../components/Home';
 import Quotes from '../components/Quotes';
 
@@ -22,5 +22,4 @@ describe('test components with snapshot', () => {
     const tree = renderer.create(<Quotes />);
     expect(tree).toMatchSnapshot();
   });
-
 });
