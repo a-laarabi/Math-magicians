@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Nav from './components/Nav'
-import Home from './components/Home'
+import Nav from './components/Nav';
+import Home from './components/Home';
 import Calculation from './components/Calculation';
-import Quotes from './components/Quotes'
+import Quotes from './components/Quotes';
 
 class App extends Component {
   constructor(props) {
